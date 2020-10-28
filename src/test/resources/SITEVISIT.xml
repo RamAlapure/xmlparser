@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SiebelMessage MessageType="Integration Object" HeaderDataObject="SITEVISIT" HeaderSource="QUINTILES" MessageId="0406"
+               IntObjectFormat="Siebel Hierarchical" IntObjectName="Sun Clinical Site Visit"
+               HeaderDataStartDateTime="01/01/1900 01:00:00 AM" HeaderFileCreatedDateTime="12/23/2019 06:23:39 AM"
+               HeaderDataEndDateTime="12/23/2019 06:23:39 AM"
+               xmlns="http://www.siebel.com/xml/SUN%20Clinical%20Site%20Visit"
+>
+    <ListOfSunClinicalSiteVisit>
+        <ClinicalProtocolSite>
+            <SiteSourceId>1-4JDOX28</SiteSourceId>
+            <ProtocolNumber>SEP135-101</ProtocolNumber>
+            <SiteNumber>001</SiteNumber>
+            <Region>United States</Region>
+            <ListOfClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4QSIYYK</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Done</VisitStatus>
+                    <PlannedVisitStart>08/07/2019</PlannedVisitStart>
+                    <ActualVisitStart>08/07/2019</ActualVisitStart>
+                    <VisitCompleted>08/09/2019</VisitCompleted>
+                    <TripReportStatus>Submitted</TripReportStatus>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4MJVGDX</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INITIATION</VisitName>
+                    <VisitType>Site Initiation</VisitType>
+                    <VisitStatus>Done</VisitStatus>
+                    <PlannedVisitStart>05/22/2019</PlannedVisitStart>
+                    <ActualVisitStart>05/22/2019</ActualVisitStart>
+                    <VisitCompleted>05/22/2019</VisitCompleted>
+                    <TripReportStatus>Submitted</TripReportStatus>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4TNDXZJ</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Scheduled</VisitStatus>
+                    <PlannedVisitStart>02/05/2020</PlannedVisitStart>
+                    <ActualVisitStart>02/05/2020</ActualVisitStart>
+                    <VisitCompleted>02/05/2020</VisitCompleted>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4TNDY17</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Scheduled</VisitStatus>
+                    <PlannedVisitStart>03/16/2020</PlannedVisitStart>
+                    <ActualVisitStart>03/16/2020</ActualVisitStart>
+                    <VisitCompleted>03/16/2020</VisitCompleted>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4TNDY35</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Scheduled</VisitStatus>
+                    <PlannedVisitStart>05/06/2020</PlannedVisitStart>
+                    <ActualVisitStart>05/06/2020</ActualVisitStart>
+                    <VisitCompleted>05/06/2020</VisitCompleted>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4TNDY5N</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Scheduled</VisitStatus>
+                    <PlannedVisitStart>05/27/2020</PlannedVisitStart>
+                    <ActualVisitStart>05/27/2020</ActualVisitStart>
+                    <VisitCompleted>05/27/2020</VisitCompleted>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4TNDY85</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Scheduled</VisitStatus>
+                    <PlannedVisitStart>07/01/2020</PlannedVisitStart>
+                    <ActualVisitStart>07/01/2020</ActualVisitStart>
+                    <VisitCompleted>07/01/2020</VisitCompleted>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4TNDZED</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Scheduled</VisitStatus>
+                    <PlannedVisitStart>03/11/2020</PlannedVisitStart>
+                    <ActualVisitStart>03/11/2020</ActualVisitStart>
+                    <VisitCompleted>03/11/2020</VisitCompleted>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4TNDZH5</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Scheduled</VisitStatus>
+                    <PlannedVisitStart>04/28/2020</PlannedVisitStart>
+                    <ActualVisitStart>04/28/2020</ActualVisitStart>
+                    <VisitCompleted>04/28/2020</VisitCompleted>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4TNDZIT</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Scheduled</VisitStatus>
+                    <PlannedVisitStart>05/20/2020</PlannedVisitStart>
+                    <ActualVisitStart>05/20/2020</ActualVisitStart>
+                    <VisitCompleted>05/20/2020</VisitCompleted>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4TNDZLL</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Scheduled</VisitStatus>
+                    <PlannedVisitStart>06/24/2020</PlannedVisitStart>
+                    <ActualVisitStart>06/24/2020</ActualVisitStart>
+                    <VisitCompleted>06/24/2020</VisitCompleted>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4QGAVPJ</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Done</VisitStatus>
+                    <PlannedVisitStart>10/16/2019</PlannedVisitStart>
+                    <ActualVisitStart>10/03/2019</ActualVisitStart>
+                    <VisitCompleted>10/04/2019</VisitCompleted>
+                    <TripReportStatus>Submitted</TripReportStatus>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4QGB54Z</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Done</VisitStatus>
+                    <PlannedVisitStart>11/25/2019</PlannedVisitStart>
+                    <ActualVisitStart>12/03/2019</ActualVisitStart>
+                    <VisitCompleted>12/06/2019</VisitCompleted>
+                    <TripReportStatus>Submitted</TripReportStatus>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4QGBPK9</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Done</VisitStatus>
+                    <PlannedVisitStart>09/04/2019</PlannedVisitStart>
+                    <ActualVisitStart>09/04/2019</ActualVisitStart>
+                    <VisitCompleted>09/06/2019</VisitCompleted>
+                    <TripReportStatus>Submitted</TripReportStatus>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4Q9562A</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Done</VisitStatus>
+                    <PlannedVisitStart>07/31/2019</PlannedVisitStart>
+                    <ActualVisitStart>07/31/2019</ActualVisitStart>
+                    <VisitCompleted>08/02/2019</VisitCompleted>
+                    <TripReportStatus>Submitted</TripReportStatus>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4NAE8DR</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Done</VisitStatus>
+                    <PlannedVisitStart>06/25/2019</PlannedVisitStart>
+                    <ActualVisitStart>06/26/2019</ActualVisitStart>
+                    <VisitCompleted>06/28/2019</VisitCompleted>
+                    <TripReportStatus>Submitted</TripReportStatus>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4PTGHUF</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Done</VisitStatus>
+                    <PlannedVisitStart>07/09/2019</PlannedVisitStart>
+                    <ActualVisitStart>07/09/2019</ActualVisitStart>
+                    <VisitCompleted>07/12/2019</VisitCompleted>
+                    <TripReportStatus>Submitted</TripReportStatus>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+                <ClinicalTripReport>
+                    <Operation>upsert</Operation>
+                    <SiteVisitSourceId>1-4TNDW69</SiteVisitSourceId>
+                    <VisitName>SITE VISIT INTERIM</VisitName>
+                    <VisitType>Site Monitoring</VisitType>
+                    <VisitStatus>Scheduled</VisitStatus>
+                    <PlannedVisitStart>01/29/2020</PlannedVisitStart>
+                    <ActualVisitStart>01/29/2020</ActualVisitStart>
+                    <VisitCompleted>01/29/2020</VisitCompleted>
+                    <Comments>Hannah, Benenson</Comments>
+                </ClinicalTripReport>
+            </ListOfClinicalTripReport>
+        </ClinicalProtocolSite>
+    </ListOfSunClinicalSiteVisit>
+</SiebelMessage>

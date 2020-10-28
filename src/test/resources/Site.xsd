@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdLocal="http://www.siebel.com/xml/SUN%20Clinical%20Protocol%20Site" targetNamespace="http://www.siebel.com/xml/SUN%20Clinical%20Protocol%20Site" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:annotation>
+		<xsd:documentation>Copyright (C) 2001-2004 Siebel Systems, Inc. All rights reserved. Siebel XSD Generation</xsd:documentation>
+	</xsd:annotation>
+	<xsd:element name="SiebelMessage" type="xsdLocal:SiebelMessage"/>
+	<xsd:complexType name="SiebelMessage">
+		<xsd:sequence>
+			<xsd:element name="ListOfSunClinicalProtocolSite" type="xsdLocal:ListOfSunClinicalProtocolSite" minOccurs="0" maxOccurs="1"/>
+		</xsd:sequence>
+		<xsd:attribute name="MessageId" type="xsd:string"/>
+		<xsd:attribute name="MessageType" type="xsd:string"/>
+		<xsd:attribute name="IntObjectName" type="xsd:string"/>
+		<xsd:attribute name="IntObjectFormat" type="xsd:string"/>
+		<xsd:attribute name="HeaderSource" type="xsd:string"/>
+		<xsd:attribute name="HeaderDataObject" type="xsd:string"/>
+		<xsd:attribute name="HeaderFileCreatedDateTime" type="xsdLocal:string30"/>
+		<xsd:attribute name="HeaderDataStartDateTime" type="xsdLocal:string30"/>
+		<xsd:attribute name="HeaderDataEndDateTime" type="xsdLocal:string30"/>
+	</xsd:complexType>
+	<xsd:complexType name="ListOfSunClinicalProtocolSite">
+		<xsd:sequence>
+			<xsd:element name="ClinicalProtocolSite" type="xsdLocal:ClinicalProtocolSite" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ClinicalProtocolSite">
+		<xsd:sequence>
+			<xsd:element name="Operation" type="xsdLocal:string10" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="AccountSourceId" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="SiteSourceId" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="SiteNumber" type="xsdLocal:string30" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="SiteName" type="xsdLocal:string100" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="PIContactSourceId" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="InvestigatorLastName" type="xsdLocal:string50" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="Status" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="Planned" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="NoSubjectInfo" type="xsdLocal:string1" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="ProtocolNumber" type="xsdLocal:string30" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="Region" type="xsdLocal:string30" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="ContractAmount" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="WithholdingAmount" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="WithholdingPercentage" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="AmountCurrencyCode" type="xsdLocal:string20" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="AmountExchangeDate" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="SiteInitiated" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="SiteTerminated" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+<xsd:element name="LastSubjectOut" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+<xsd:element name="LastSubjectRandomized" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+<xsd:element name="SiteClosed" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="ListOfClinicalProtocolSite_BiopharmProtocolVersions" type="xsdLocal:ListOfClinicalProtocolSite_BiopharmProtocolVersions" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="ListOfClinicalProtocolSite_SubjectTemplate" type="xsdLocal:ListOfClinicalProtocolSite_SubjectTemplate" minOccurs="0" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ListOfClinicalProtocolSite_BiopharmProtocolVersions">
+		<xsd:sequence>
+			<xsd:element name="ClinicalProtocolSite_BiopharmProtocolVersions" type="xsdLocal:ClinicalProtocolSite_BiopharmProtocolVersions" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ClinicalProtocolSite_BiopharmProtocolVersions">
+		<xsd:sequence>
+			<xsd:element name="Operation" type="xsdLocal:string10" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="Active" type="xsdLocal:string1" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="OriginalVersion" type="xsdLocal:string1" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="AmendmentVersion" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="IRBApprovalDate" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ListOfClinicalProtocolSite_SubjectTemplate">
+		<xsd:sequence>
+			<xsd:element name="ClinicalProtocolSite_SubjectTemplate" type="xsdLocal:ClinicalProtocolSite_SubjectTemplate" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ClinicalProtocolSite_SubjectTemplate">
+		<xsd:sequence>
+			<xsd:element name="Operation" type="xsdLocal:string10" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="Active" type="xsdLocal:string1" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="TemplateName" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="TemplateVersion" type="xsdLocal:string30" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="VisitScheduleActiveDate" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:simpleType name="string50">
+		<xsd:restriction base="xsd:string">
+			<xsd:maxLength value="50"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="string10">
+		<xsd:restriction base="xsd:string">
+			<xsd:maxLength value="10"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="string30">
+		<xsd:restriction base="xsd:string">
+			<xsd:maxLength value="30"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="string1">
+		<xsd:restriction base="xsd:string">
+			<xsd:maxLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="string100">
+		<xsd:restriction base="xsd:string">
+			<xsd:maxLength value="100"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="string20">
+		<xsd:restriction base="xsd:string">
+			<xsd:maxLength value="20"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

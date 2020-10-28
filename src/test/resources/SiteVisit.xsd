@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdLocal="http://www.siebel.com/xml/SUN%20Clinical%20Site%20Visit" targetNamespace="http://www.siebel.com/xml/SUN%20Clinical%20Site%20Visit" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:annotation>
+		<xsd:documentation>Copyright (C) 2001-2004 Siebel Systems, Inc. All rights reserved. Siebel XSD Generation</xsd:documentation>
+	</xsd:annotation>
+	<xsd:element name="SiebelMessage" type="xsdLocal:SiebelMessage"/>
+	<xsd:complexType name="SiebelMessage">
+		<xsd:sequence>
+			<xsd:element name="ListOfSunClinicalSiteVisit" type="xsdLocal:ListOfSunClinicalSiteVisit" minOccurs="0" maxOccurs="1"/>
+		</xsd:sequence>
+		<xsd:attribute name="MessageId" type="xsd:string"/>
+		<xsd:attribute name="MessageType" type="xsd:string"/>
+		<xsd:attribute name="IntObjectName" type="xsd:string"/>
+		<xsd:attribute name="IntObjectFormat" type="xsd:string"/>
+		<xsd:attribute name="HeaderSource" type="xsd:string"/>
+		<xsd:attribute name="HeaderDataObject" type="xsd:string"/>
+		<xsd:attribute name="HeaderFileCreatedDateTime" type="xsdLocal:string30"/>
+		<xsd:attribute name="HeaderDataStartDateTime" type="xsdLocal:string30"/>
+		<xsd:attribute name="HeaderDataEndDateTime" type="xsdLocal:string30"/>
+	</xsd:complexType>
+	<xsd:complexType name="ListOfSunClinicalSiteVisit">
+		<xsd:sequence>
+			<xsd:element name="ClinicalProtocolSite" type="xsdLocal:ClinicalProtocolSite" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ClinicalProtocolSite">
+		<xsd:sequence>
+			<xsd:element name="SiteSourceId" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="ProtocolNumber" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="SiteNumber" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="Region" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="ListOfClinicalTripReport" type="xsdLocal:ListOfClinicalTripReport" minOccurs="0" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ListOfClinicalTripReport">
+		<xsd:sequence>
+			<xsd:element name="ClinicalTripReport" type="xsdLocal:ClinicalTripReport" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ClinicalTripReport">
+		<xsd:sequence>
+			<xsd:element name="Operation" type="xsdLocal:string10" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="SiteVisitSourceId" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="VisitName" type="xsdLocal:string100" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="VisitType" type="xsdLocal:string30" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="VisitStatus" type="xsdLocal:string30" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="PlannedVisitStart" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="ActualVisitStart" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="VisitCompleted" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="TripReportStatus" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="Comments" type="xsdLocal:string1500" minOccurs="0" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:simpleType name="string50">
+		<xsd:restriction base="xsd:string">
+			<xsd:maxLength value="50"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="string10">
+		<xsd:restriction base="xsd:string">
+			<xsd:maxLength value="10"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="string30">
+		<xsd:restriction base="xsd:string">
+			<xsd:maxLength value="30"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="string100">
+		<xsd:restriction base="xsd:string">
+			<xsd:maxLength value="100"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="string1500">
+		<xsd:restriction base="xsd:string">
+			<xsd:maxLength value="1500"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

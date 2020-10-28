@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SiebelMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MessageType="Integration Object" IntObjectFormat="Siebel Hierarchical"
+               MessageId="0400" HeaderDataObject="SITE"
+               IntObjectName="Sun Clinical Protocol Site" HeaderFileCreatedDateTime="12/23/2019 06:22:45 AM"
+               HeaderSource="QUINTILES" HeaderDataEndDateTime="12/23/2019 06:22:45 AM"
+               HeaderDataStartDateTime="01/01/1900 01:00:00 AM"
+               xmlns="http://www.siebel.com/xml/SUN%20Clinical%20Protocol%20Site"
+               xsi:schemaLocation="http://www.siebel.com/xml/SUN%20Clinical%20Protocol%20Site Site.xsd">
+    <ListOfSunClinicalProtocolSite>
+        <ClinicalProtocolSite>
+            <Operation>upsert</Operation>
+            <AccountSourceId>1-3594JDX</AccountSourceId>
+            <SiteSourceId>1-4JDOX28</SiteSourceId>
+            <SiteNumber>001</SiteNumber>
+            <SiteName>PPD Development, LP</SiteName>
+            <PIContactSourceId>1-3591W64</PIContactSourceId>
+            <InvestigatorLastName>Bundrant</InvestigatorLastName>
+            <Status>Active</Status>
+            <NoSubjectInfo>N</NoSubjectInfo>
+            <ProtocolNumber>SEP135-101</ProtocolNumber>
+            <Region>USA</Region>
+            <SiteInitiated>05/22/2019</SiteInitiated>
+            <ListOfClinicalProtocolSite_SubjectTemplate>
+                <ClinicalProtocolSite_SubjectTemplate>
+                    <Operation>upsert</Operation>
+                    <Active>Y</Active>
+                    <TemplateName>IZA20420_Subject Visit Template</TemplateName>
+                    <TemplateVersion>Version 1</TemplateVersion>
+                    <VisitScheduleActiveDate>04/18/2019</VisitScheduleActiveDate>
+                </ClinicalProtocolSite_SubjectTemplate>
+            </ListOfClinicalProtocolSite_SubjectTemplate>
+        </ClinicalProtocolSite>
+    </ListOfSunClinicalProtocolSite>
+</SiebelMessage>

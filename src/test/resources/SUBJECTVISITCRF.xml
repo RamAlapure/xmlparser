@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SiebelMessage HeaderDataEndDateTime="01/13/2020 12:32:34 PM" MessageId="0502" HeaderSource="QUINTILES"
+               MessageType="Integration Object" HeaderDataStartDateTime="01/10/2020 03:46:42 AM"
+               HeaderFileCreatedDateTime="01/13/2020 12:32:34 PM" HeaderDataObject="SUBJECTVISITCRF"
+               IntObjectName="Sun Clinical Subject Visit" IntObjectFormat="Siebel Hierarchical"
+               xmlns="http://www.siebel.com/xml/SUN%20Clinical%20Subject%20Visit"
+               xsi:schemaLocation="http://www.siebel.com/xml/SUN%20Clinical%20Subject%20Visit SubjectVisit.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ListOfSunClinicalSubjectVisit>
+        <ClinicalSubject>
+            <SubjectSourceId>1-4UABOQ2</SubjectSourceId>
+            <SiteSourceId>1-4JDOX28</SiteSourceId>
+            <SubjectNumber>101001094</SubjectNumber>
+            <ListOfVisitPlan>
+                <VisitPlan>
+                    <Operation>upsert</Operation>
+                    <SubjectVisitSourceId>1-4UABORO</SubjectVisitSourceId>
+                    <Sequence>14000</Sequence>
+                    <TemplateName>IZA20420_Subject Visit Template</TemplateName>
+                    <Version>Version 1</Version>
+                    <Type>Screening</Type>
+                    <Name>UV 4</Name>
+                    <Planned>11/08/2019</Planned>
+                    <Due>11/08/2019</Due>
+                    <CompletedDate>12/05/2019</CompletedDate>
+                    <MinDueDate>11/08/2019</MinDueDate>
+                    <MaxDueDate>11/08/2019</MaxDueDate>
+                </VisitPlan>
+                <VisitPlan>
+                    <Operation>upsert</Operation>
+                    <SubjectVisitSourceId>1-4UABORT</SubjectVisitSourceId>
+                    <Sequence>15000</Sequence>
+                    <TemplateName>IZA20420_Subject Visit Template</TemplateName>
+                    <Version>Version 1</Version>
+                    <Type>Screening</Type>
+                    <Name>UV 5</Name>
+                    <Planned>11/08/2019</Planned>
+                    <Due>11/08/2019</Due>
+                    <CompletedDate>12/09/2019</CompletedDate>
+                    <MinDueDate>11/08/2019</MinDueDate>
+                    <MaxDueDate>11/08/2019</MaxDueDate>
+                </VisitPlan>
+            </ListOfVisitPlan>
+        </ClinicalSubject>
+        <ClinicalSubject>
+            <SubjectSourceId>1-4UABWA7</SubjectSourceId>
+            <SiteSourceId>1-4JDOX28</SiteSourceId>
+            <SubjectNumber>101001084</SubjectNumber>
+            <ListOfVisitPlan>
+                <VisitPlan>
+                    <Operation>upsert</Operation>
+                    <SubjectVisitSourceId>1-4UABWBO</SubjectVisitSourceId>
+                    <Sequence>13000</Sequence>
+                    <TemplateName>IZA20420_Subject Visit Template</TemplateName>
+                    <Version>Version 1</Version>
+                    <Type>Screening</Type>
+                    <Name>UV 3</Name>
+                    <Planned>11/05/2019</Planned>
+                    <Due>11/05/2019</Due>
+                    <CompletedDate>11/20/2019</CompletedDate>
+                    <MinDueDate>11/05/2019</MinDueDate>
+                    <MaxDueDate>11/05/2019</MaxDueDate>
+                </VisitPlan>
+            </ListOfVisitPlan>
+        </ClinicalSubject>
+    </ListOfSunClinicalSubjectVisit>
+</SiebelMessage>
